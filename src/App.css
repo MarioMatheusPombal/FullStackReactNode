@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+.divcenter{
+    text-align: center;
+    margin: 2rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    -moz-box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    -webkit-box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    -o-box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    -ms-box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ul{
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.number{
+    font-size: 1.5rem;
+    color: crimson;
+    font-weight: 700;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #f3f3f3;
+    transition: 3.5s;
+    height: 120%;
+    color: black;
+}
+.li{
+    margin: 1rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: crimson 0.5rem solid;
+    width: 30rem;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 0 0 15px 4px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 0 0 15px 4px rgba(0,0,0,0.20);
+    -o-box-shadow: 0 0 15px 4px rgba(0,0,0,0.20);
+    -ms-box-shadow: 0 0 15px 4px rgba(0,0,0,0.20);
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+}
+.input{
+    margin: 1rem;
+    padding: 0.3rem;
+    width: 20rem;
+    border: 0.2rem solid #ccc;
+    border-radius: 0.5rem;
+    color: crimson;
+}
+.input:focus{
+    outline: none;
+    border: 0.2rem solid crimson;
+}
+.button1{
+    background-color: chartreuse;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #f3f3f3;
+    transition: 3.5s;
+    height: 120%;
+    color: black;
+}
+.button2{
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: #f3f3f3;
+    transition: 3.5s;
+    height: 120%;
+    color: black;
+}
+.hide{
+    display: none;
 }
